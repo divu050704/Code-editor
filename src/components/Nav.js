@@ -23,6 +23,10 @@ export default function Nav(props) {
         >
           <option value="javascript">Javascript</option>
           <option value="python">Python</option>
+          <option value="markdown">Markdown</option>
+          <option value="cpp">C++</option>
+          <option value="html">HTML</option>
+          <option value="java">Java</option>
         </select>
       </div>
       {props.lang === "javascript" && (
