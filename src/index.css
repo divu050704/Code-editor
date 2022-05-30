@@ -10,7 +10,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #252525;
+  background: transparent;
 }
 
 /* Handle */
