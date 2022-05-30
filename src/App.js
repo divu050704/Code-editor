@@ -7,8 +7,8 @@ export default function App(props) {
   const [lang, setLang] = React.useState(
     localStorage.getItem("lang") || "javascript"
   );
-  function changeLang() {
-    setLang((prev) => (prev === "javascript" ? "python" : "javascript"));
+  function changeLang(event) {
+    setLang(event.target.value);
   }
   React.useEffect(
     function () {
